@@ -1,0 +1,7 @@
+export { default as Section } from "./Section"
+export { default as Splash } from "./Splash"
+export { default as Header } from "./Header"
+export { default as Initiatves } from "./initiatives"
+export { default as Team } from "./Team"
+export { default as Join } from "./Join"
+export { default as Sponsors } from "./Sponsors"
