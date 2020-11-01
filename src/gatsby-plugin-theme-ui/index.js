@@ -19,7 +19,7 @@ export default {
     heading: `${systemFontStack}`,
     body: ` ${systemFontStack}`,
   },
-  fontSizes: [12, 14, 16, 18, 24, 28, 32, 36, 48, 64, 72],
+  fontSizes: [12, 14, 16, 18, 24, 28, 32, 48, 48, 64, 72],
   fontWeights: {
     body: 400,
     heading: 500,
@@ -67,5 +67,9 @@ export default {
       paddingBottom: 0,
       paddingTop: 0,
     },
+    html: {
+      width: 100+"%",
+      height: 100+"%",
+    }
   },
 }

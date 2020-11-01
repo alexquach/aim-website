@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Reading Group",
+        "description": "Our weekly discussions on recent machine learning papers, or “reading groups”, are at the core of our community. We strongly believe that undergraduates have the potential to do meaningful contributions in the field of ML and because of that we organize these reading groups for undergraduates, presented by undergraduates. We are confident that this is one of the best way for undergrads to have a taste of the current literature, all the while becoming a part of a vibrant community along the way.",
+        "img_link": "yaya"
+    },
+    {
+        "title": "Workshops",
+        "description": "We host workshops every two weeks, on Thursdays from 5 PM - 7 PM ET, covering various topics in Machine Learning. Don’t worry if you haven’t had any exposure to Machine Learning before! We’ll cover everything from scratch.<br> Lectures - Get a high-level understanding of the math behind neural networks, how to train a language model, and more! We’ll start each workshop with a short lecture on a ML concept and answer any questions you have along the way. Labs -- Each lecture will have an associated lab component, where you can apply what you’ve learned. Meet some of your fellow students and work together to train a model to recognize handwritten digits, generate text, and more.",
+        "img_link": "yaysss"
+    },
+    {
+        "title": "Generator",
+        "description": "description here"
+    },
+    {
+        "title": "Labs",
+        "description": "Machine learning algorithms are advancing really fast. They’re powering applications in every industry, and will only become more ubiquitous over the next few years. But at MIT, much of the ML work done is very research-based, with less emphasis on more practical uses. AIM Labs wants to fix that. We want to build a community of talented and passionate hackers, working together to use cutting-edge ML in public-facing projects. Every semester, we host a demo day and invite the community to see what we’ve been building! 🥳"
+    }
+]
