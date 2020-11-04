@@ -49,8 +49,8 @@ export const SectionWrap = styled.main`
 
 export const StyledSplash = styled.section`
   scroll-snap-align: start;
-  background: ${theme.colors.background};
   display: flex;
+  
   flex-flow: row wrap;
   align-content: center;
   justify-content: center;
@@ -77,6 +77,7 @@ export const StyledInitiatives = styled.div`
   display: flex;
   flex-flow: row wrap; 
   justify-content: space-around;
+  align-content: center;
 `
 
 export const StyledInitiativesContainer = styled.div`
@@ -92,7 +93,7 @@ export const StyledJoin = styled.div`
   width: 80vw;
   display: flex;
   flex-flow: column wrap; 
-  justify-content: space-around;
+  justify-content: center;
 `
 
 export const StyledTeam = styled.div`
@@ -101,6 +102,16 @@ export const StyledTeam = styled.div`
   display: flex;
   flex-flow: row wrap; 
   justify-content: space-around;
+  align-content: center;
+`
+
+export const StyledSponsor = styled.div`
+  min-height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-around;
+  align-content: center;
 `
 
 export const StyledSection = styled.section`
