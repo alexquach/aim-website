@@ -15,7 +15,7 @@ export default function Home() {
           <Splash />
         </Section>
 
-        <Section id="join">
+        <Section id="connect">
           <Join />
         </Section>
 

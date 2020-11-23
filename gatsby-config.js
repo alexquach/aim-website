@@ -19,5 +19,5 @@ module.exports = {
       }
     }
   ],
-  pathPrefix: "/aim-website",
+  pathPrefix: "/",
 }

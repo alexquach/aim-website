@@ -8,7 +8,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   joinButton: {
-    margin: "10px"
+    margin: "10px",
+    fontSize: "1.5em"
   },
 }));
 
@@ -18,7 +19,6 @@ const Join = () => {
   return (
     <StyledJoin>
       <h1>Connect</h1>
-      <h2>Events</h2>
       <div style={{ padding: "20px" }}>
         <iframe class="airtable-embed" src="https://airtable.com/embed/shr98eK5zbX1YVI3u?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" css={css`background: transparent; border: 1px solid #ccc;`}></iframe>
       </div>

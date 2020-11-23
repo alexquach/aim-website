@@ -15,7 +15,7 @@ const Sponsors = () => {
       </div>
 
 
-      <Paper style={{ 
+      <Paper elevation={12} style={{ 
         'display': 'flex', 'flex-flow': 'row wrap', 
         "justify-content": "space-evenly", "width": "100%",
         "padding": "15px 0px 15px 0px", "align-content": "space-around" }}>

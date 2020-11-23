@@ -13,17 +13,17 @@ const Header = () => {
           </ScrollLink>
           <NavList>
             <NavItem>
-              <ScrollLink css={ScrollLinkStyle} to="join" smooth={"easeInOutCubic"}>
-                Join
+              <ScrollLink css={ScrollLinkStyle} to="connect" smooth={"easeInOutCubic"} offset={95}>
+                Connect
               </ScrollLink>
             </NavItem>
             <NavItem>
-              <ScrollLink css={ScrollLinkStyle} to={"initiatives"} smooth={"easeInOutCubic"} offset={-100}>
+              <ScrollLink css={ScrollLinkStyle} to={"initiatives"} smooth={"easeInOutCubic"} offset={95}>
                 Initiatives
               </ScrollLink>
             </NavItem>
             <NavItem>
-              <ScrollLink css={ScrollLinkStyle} to="team" smooth={"easeInOutCubic"}>
+              <ScrollLink css={ScrollLinkStyle} to="team" smooth={"easeInOutCubic"} offset={-50}>
                 Team
               </ScrollLink>
             </NavItem>
