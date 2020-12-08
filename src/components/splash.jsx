@@ -52,6 +52,9 @@ const Splash = () => {
           <Button className={classes.joinButton} variant="contained" color="primary" href="https://mit.us16.list-manage.com/subscribe/post?u=b71b58fc01f0404f5bfaffe4d&amp;id=f1d937193c" target="_blank" rel="noopener noreferrer">
             Join Mailing List
           </Button>
+          <Button className={classes.joinButton} variant="contained" color="primary" href="mailto:aim-exec@mit.edu" target="_blank" rel="noopener noreferrer">
+            Email us
+          </Button>
         </div>
       </StyledCalendarButtons>
     </StyledSplash>
