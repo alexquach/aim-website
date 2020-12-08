@@ -16,10 +16,20 @@ const useStyles = makeStyles((theme) => ({
 const InitiativeItem = ({ title, description, children }) => {
   const classes = useStyles()
 
+  const description_array = description.split('<br/>')
+
   return (
       <Paper className={classes.paper} elevation={3}>
         <h2>{title}</h2>
-        <p>{description}</p>
+
+        <div dangerouslySetInnerHTML={{__html: description.replace(/(<? *script)/gi, 'illegalscript')}} >
+        </div>
+
+        {/* {description_array.map(item => (
+          <p>
+            {item}
+          </p>
+        ))} */}
         {children}
       </Paper>
   )

@@ -10,13 +10,9 @@ export default function Home() {
         "background-image": `linear-gradient(${theme.colors.dark} 70vh, ${theme.colors.primary}, 
         ${theme.colors.secondary}, ${theme.colors.tertiary}, ${theme.colors.dark}`
       }}>
+        <Header />
         <Section id="splash">
-          <Header />
           <Splash />
-        </Section>
-
-        <Section id="connect">
-          <Join />
         </Section>
 
         <Section id="initiatives">

@@ -13,12 +13,12 @@ const Header = () => {
           </ScrollLink>
           <NavList>
             <NavItem>
-              <ScrollLink css={ScrollLinkStyle} to="connect" smooth={"easeInOutCubic"} offset={95}>
-                Connect
+              <ScrollLink css={ScrollLinkStyle} to="splash" smooth={"easeInOutCubic"} offset={-100}>
+                Home
               </ScrollLink>
             </NavItem>
             <NavItem>
-              <ScrollLink css={ScrollLinkStyle} to={"initiatives"} smooth={"easeInOutCubic"} offset={95}>
+              <ScrollLink css={ScrollLinkStyle} to={"initiatives"} smooth={"easeInOutCubic"} offset={-50}>
                 Initiatives
               </ScrollLink>
             </NavItem>

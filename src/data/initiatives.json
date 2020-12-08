@@ -1,17 +1,15 @@
 [
     {
         "title": "Reading Group",
-        "description": "Our weekly discussions on recent machine learning papers, or “reading groups”, are at the core of our community. We strongly believe that undergraduates have the potential to do meaningful contributions in the field of ML and because of that we organize these reading groups for undergraduates, presented by undergraduates. We are confident that this is one of the best way for undergrads to have a taste of the current literature, all the while becoming a part of a vibrant community along the way.",
-        "img_link": "yaya"
+        "description": "Our weekly discussions on recent machine learning papers, or “reading groups”, are at the core of our community. We strongly believe that undergraduates have the potential to do meaningful contributions in the field of ML and because of that we organize these reading groups for undergraduates, presented by undergraduates. We are confident that this is one of the best way for undergrads to have a taste of the current literature, all the while becoming a part of a vibrant community along the way."
     },
     {
         "title": "Workshops",
-        "description": "We host workshops every two weeks, on Thursdays from 5 PM - 7 PM ET, covering various topics in Machine Learning. Don’t worry if you haven’t had any exposure to Machine Learning before! We’ll cover everything from scratch.<br> Lectures - Get a high-level understanding of the math behind neural networks, how to train a language model, and more! We’ll start each workshop with a short lecture on a ML concept and answer any questions you have along the way. Labs -- Each lecture will have an associated lab component, where you can apply what you’ve learned. Meet some of your fellow students and work together to train a model to recognize handwritten digits, generate text, and more.",
-        "img_link": "yaysss"
+        "description": "`We host workshops every two weeks, on Thursdays from 5 PM - 7 PM ET, covering various topics in Machine Learning. Don’t worry if you haven’t had any exposure to Machine Learning before! We’ll cover everything from scratch.<br><br>Lectures -- Get a high-level understanding of the math behind neural networks, how to train a language model, and more! We’ll start each workshop with a short lecture on a ML concept and answer any questions you have along the way.<br><br>Labs -- Each lecture will have an associated lab component, where you can apply what you’ve learned. Meet some of your fellow students and work together to train a model to recognize handwritten digits, generate text, and more.`"
     },
     {
         "title": "Generator",
-        "description": "description here"
+        "description": "Generator is MIT’s premiere research competition intended to recognize promising students who are improving and harnessing artificial intelligence to solve societal challenges.<br><br>Through mentorship from industry and academia professionals, support for cloud compute resources, and access to our events and speaker series, Generator empowers undergraduate and graduate students across Boston-area universities on a variety of machine intelligence projects, encouraging technical and creative excellence and promoting a passion to solve the problems of the present and future.<br><br>For more information check out <a href='http://generator.mit.edu/' target='_blank' > http://generator.mit.edu </a>"
     },
     {
         "title": "Labs",

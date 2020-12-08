@@ -50,14 +50,32 @@ export const SectionWrap = styled.main`
 export const StyledSplash = styled.section`
   scroll-snap-align: start;
   display: flex;
-  
+  flex-grow: 1;
   flex-flow: row wrap;
   align-content: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
   min-height: 400px;
-  height: 100vh;
+  max-width: 90%;
+  margin-top: 4em;
+`
+
+export const StyledLogoPair = styled.div`
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+`
+
+export const StyledCalendarButtons = styled.div`
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 3;
 `
 
 export const StyledSplashText = styled.div`
@@ -106,7 +124,7 @@ export const StyledTeam = styled.div`
 `
 
 export const StyledSponsor = styled.div`
-  min-height: 100vh;
+  min-height: 50vh;
   width: 80vw;
   display: flex;
   flex-flow: row wrap; 
@@ -120,9 +138,9 @@ export const StyledSection = styled.section`
   align-items: center;
   justify-content: center;
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
   @media only screen and (min-width: ${theme.breakpoints[1]}) {
-    min-height: 100vh;
+    min-height: 50vh;
     height: auto;
   }
   ${({ backgroundColor, light }) => ({
