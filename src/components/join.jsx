@@ -13,6 +13,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// TODO (adriano) in the future we will want to display the current date
+// on the airtable (should be possible in JS with vanilla functions)
 const Join = () => {
   const classes = useStyles()
 
@@ -20,7 +22,7 @@ const Join = () => {
     <StyledJoin>
       <h1>Connect</h1>
       <div style={{ padding: "20px" }}>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shr98eK5zbX1YVI3u?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" css={css`background: transparent; border: 1px solid #ccc;`}></iframe>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shr98eK5zbX1YVI3u?backgroundColor=orange&viewControls=on&date=2021-09-01" frameborder="0" onmousewheel="" width="100%" height="533" css={css`background: transparent; border: 1px solid #ccc;`}></iframe>
       </div>
 
       <div
