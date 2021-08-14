@@ -11,7 +11,7 @@ const Sponsors = () => {
   return (
     <StyledSponsor>
       <div style={{ 'width': "100%" }}>
-        <h1 style={{ 'text-align': 'left', 'display': 'inline-block' }}>Sponsors</h1>
+        <h1 style={{ 'text-align': 'left', 'display': 'inline-block' }}>Past Sponsors</h1>
       </div>
 
 
