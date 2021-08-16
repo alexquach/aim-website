@@ -186,11 +186,3 @@ export const HyperLink = styled.a`
   text-decoration: none;
   color: ${theme.colors.dark};
 `
-
-export const logoStyle = css`
-  height: 200px;
-  // color: white;
-  // filter: invert(95%) sepia(100%) saturate(21%) hue-rotate(345deg) brightness(103%) contrast(107%);
-  margin-top: auto;
-  margin-bottom: auto;
-  `

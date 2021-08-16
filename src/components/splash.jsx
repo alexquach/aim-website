@@ -1,6 +1,6 @@
 import React from "react"
 import theme from "../gatsby-plugin-theme-ui"
-import { StyledSplash, StyledSplashText, logoStyle, StyledLogoPair, StyledCalendarButtons } from "./styles"
+import { StyledSplash, StyledSplashText, StyledLogoPair, StyledCalendarButtons } from "./styles"
 import { css } from "@emotion/core"
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
@@ -13,6 +13,20 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.5em"
   },
 }));
+
+// Doesn't work with build? TODO (adriano)
+const logoHeight = typeof window !== `undefined` ? (window.innerWidth > 700 ? "300" : "150") : "300";
+const logoMarginBottom = typeof window !== `undefined` ? (window.innerWidth > 700 ? "150" : "50") : "150";
+
+// Margin 150 is a quick hack to avoid ^
+const logoStyle = css`
+  height: ${logoHeight}px;
+  // color: white;
+  // filter: invert(95%) sepia(100%) saturate(21%) hue-rotate(345deg) brightness(103%) contrast(107%);
+  margin-top: auto;
+  margin-bottom: ${logoMarginBottom}px;
+  `
+
 
 // TODO (adriano) in the future we will want to display the current date
 // on the airtable (should be possible in JS with vanilla functions)
