@@ -14,22 +14,23 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// 
-const logoHeight = window.innerWidth > 700 ? "300" : "150";
+// Doesn't work with build? TODO (adriano)
+const logoHeight = typeof window !== `undefined` ? (window.innerWidth > 700 ? "300" : "150") : "50";
+const logoMarginBottom = typeof window !== `undefined` ? (window.innerWidth > 700 ? "150" : "50") : "150";
 
+// Margin 150 is a quick hack to avoid ^
 const logoStyle = css`
   height: ${logoHeight}px;
   // color: white;
   // filter: invert(95%) sepia(100%) saturate(21%) hue-rotate(345deg) brightness(103%) contrast(107%);
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: ${logoMarginBottom}px;
   `
 
 
 // TODO (adriano) in the future we will want to display the current date
 // on the airtable (should be possible in JS with vanilla functions)
 const Splash = () => {
-  console.log(window.innerWidth)
   const classes = useStyles()
   return (
     <StyledSplash>
