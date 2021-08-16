@@ -1,6 +1,6 @@
 import React from "react"
 import theme from "../gatsby-plugin-theme-ui"
-import { StyledSplash, StyledSplashText, logoStyle, StyledLogoPair, StyledCalendarButtons } from "./styles"
+import { StyledSplash, StyledSplashText, StyledLogoPair, StyledCalendarButtons } from "./styles"
 import { css } from "@emotion/core"
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
@@ -14,9 +14,22 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// 
+const logoHeight = window.innerWidth > 700 ? "300" : "150";
+
+const logoStyle = css`
+  height: ${logoHeight}px;
+  // color: white;
+  // filter: invert(95%) sepia(100%) saturate(21%) hue-rotate(345deg) brightness(103%) contrast(107%);
+  margin-top: auto;
+  margin-bottom: auto;
+  `
+
+
 // TODO (adriano) in the future we will want to display the current date
 // on the airtable (should be possible in JS with vanilla functions)
 const Splash = () => {
+  console.log(window.innerWidth)
   const classes = useStyles()
   return (
     <StyledSplash>
