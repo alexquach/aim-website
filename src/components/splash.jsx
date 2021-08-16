@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 // Doesn't work with build? TODO (adriano)
-const logoHeight = typeof window !== `undefined` ? (window.innerWidth > 700 ? "300" : "150") : "50";
+const logoHeight = typeof window !== `undefined` ? (window.innerWidth > 700 ? "300" : "150") : "300";
 const logoMarginBottom = typeof window !== `undefined` ? (window.innerWidth > 700 ? "150" : "50") : "150";
 
 // Margin 150 is a quick hack to avoid ^
