@@ -1,18 +1,6 @@
 [
     {
-        "name": "Cerebras",
-        "img_link": "sponsors/cerebras.svg"
-    },
-    {
-        "name": "Quantco",
-        "img_link": "sponsors/quantco.png"
-    },
-    {
-        "name": "Quest For Intelligence",
+        "name": "MIT Quest For Intelligence",
         "img_link": "sponsors/questforintelligence.png"
-    },
-    {
-        "name": "Nvidia",
-        "img_link": "sponsors/nvidia.svg"
     }
 ]

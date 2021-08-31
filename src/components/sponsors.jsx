@@ -6,10 +6,27 @@ import Grid from '@material-ui/core/Grid';
 import SponsorItem from "./sponsorItem"
 
 import sponsorInfo from "../data/sponsors.json"
+import pastSponsorInfo from "../data/past_sponsors.json"
 
 const Sponsors = () => {
   return (
     <StyledSponsor>
+      <div style={{ 'width': "100%" }}>
+        <h1 style={{ 'text-align': 'left', 'display': 'inline-block' }}>Current Sponsors</h1>
+      </div>
+
+      <Paper elevation={12} style={{ 
+        'display': 'flex', 'flex-flow': 'row wrap', 
+        "justify-content": "space-evenly", "width": "100%",
+        "padding": "15px 0px 15px 0px", "align-content": "space-around" }}>
+          {sponsorInfo.map(sponsor => (
+            <SponsorItem
+              name={sponsor.name}
+              img_link={sponsor.img_link}
+            />
+          ))}
+        </Paper>
+
       <div style={{ 'width': "100%" }}>
         <h1 style={{ 'text-align': 'left', 'display': 'inline-block' }}>Past Sponsors</h1>
       </div>
@@ -20,7 +37,7 @@ const Sponsors = () => {
         "justify-content": "space-evenly", "width": "100%",
         "padding": "15px 0px 15px 0px", "align-content": "space-around" }}>
 
-        {sponsorInfo.map(sponsor => (
+        {pastSponsorInfo.map(sponsor => (
           <SponsorItem
           name={sponsor.name}
           img_link={sponsor.img_link}
