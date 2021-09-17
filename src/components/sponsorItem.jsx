@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
 const SponsorItem = ({ name, img_link, children }) => {
   const classes = useStyles()
   return (
-      <img style={{maxHeight: "100px", maxWidth: "320px", "margin": "20px 5px 20px 5px"}} src={img_link} />
+      <img style={{maxHeight: "100px", maxWidth: "500px", "margin": "20px 5px 20px 5px"}} src={img_link} />
   )
 }
 
