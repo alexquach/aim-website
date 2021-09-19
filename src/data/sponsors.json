@@ -6,5 +6,9 @@
     {
         "name": "Covariant",
         "img_link": "sponsors/covariant.png"
+    },
+    {
+        "name": "Nvidia",
+        "img_link": "sponsors/nvidia.svg"
     }
 ]
