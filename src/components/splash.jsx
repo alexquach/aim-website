@@ -27,9 +27,8 @@ const logoStyle = css`
   margin-bottom: ${logoMarginBottom}px;
   `
 
-
-// TODO (adriano) in the future we will want to display the current date
-// on the airtable (should be possible in JS with vanilla functions)
+// This is the previous airtable btw:
+// <iframe class="airtable-embed" src="https://airtable.com/embed/shr98eK5zbX1YVI3u?backgroundColor=orange&viewControls=on&date=2021-09-01" frameborder="0" onmousewheel="" width="100%" height="533" css={css`background: transparent; border: 1px solid #ccc;`}></iframe>
 const Splash = () => {
   const classes = useStyles()
   return (
@@ -56,7 +55,16 @@ const Splash = () => {
 
       <StyledCalendarButtons>
         <div style={{ padding: "20px" }}>
-          <iframe class="airtable-embed" src="https://airtable.com/embed/shr98eK5zbX1YVI3u?backgroundColor=orange&viewControls=on&date=2021-09-01" frameborder="0" onmousewheel="" width="100%" height="533" css={css`background: transparent; border: 1px solid #ccc;`}></iframe>
+          <iframe 
+            src="https://calendar.google.com/calendar/embed?src=o2l92fc80naot7nh8fmc4iklh8%40group.calendar.google.com&ctz=America%2FNew_York"
+            frameborder="0"
+            onmousewheel=""
+            width="100%"
+            height="533"
+            frameborder="0"
+            scrolling="no"
+            css={css`background: transparent; border: 1px solid #ccc;`}>
+            </iframe>
         </div>
 
         <div

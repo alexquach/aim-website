@@ -5,7 +5,7 @@
     },
     {
         "title": "Workshops",
-        "description": "`We host workshops every two weeks on Thursdays from 5 PM - 7 PM ET, covering various topics in Machine Learning (ML). They are beginner friendly, since we cover everything from scratch. Our workshops are comprised of lectures and labs. In lectures, you'll get a high-level understanding of fundamental ML through a presentation followed by an interactive Q&A session. Each lecture will have an associated lab. In labs you'll apply what you’ve learned in a Jupyter notebook with other students."
+        "description": "We host machine learning workshops every two weeks on Mondays from 7-9pm ET. Our workshops are designed to be both beginner-friendly and complementary to 6.036, MIT's introductory ML class; we focus on practical knowledge, ranging from basic model architectures and PyTorch best practices to model serving and distributed training. Each workshop is comprised of a brief theory lecture and an interactive coding-based lab. Materials can be found at github.com/AI-Club-at-MIT/Workshops."
     },
     {
         "title": "Generator",
