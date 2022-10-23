@@ -1,8 +1,8 @@
 [
     {
-        "name": "Evan \"Vogel\" Vogelbaum",
-        "bio": "Hey Everyone, I'm Evan, a course 18 particularly interested in the intersection of machine learning and finance as well as machine learning theory. I began as a member of AIM my Freshman year, joined our Workshops board the following year, and now serve as Co-President. Outside of academics I enjoy Crossfit, reading, and hanging out with my fraternity brothers.",
-        "img": "headshots/Evan Vogelbaum.png",
+        "name": "Jimin Lee",
+        "bio": "Jimin is a sophomore majoring in Electrical Engineering and Computer Science. Her current interests are neural networks for NLP research and computer vision. Jimin enjoys playing sports and traveling in her free time.",
+        "img": "headshots/Jimin Lee.png",
         "role": "Co-President"
     },
     {
@@ -12,21 +12,21 @@
         "role": "Co-President"
     },
     {
-        "name": "Saketh \"McLovin\" Gabbita",
-        "bio": "Saketh is a sophomore studying computer science and is one of the Workshop leads. He is very interested in evaluating how machine learning can be used in non-standard applications. In his free time, Saketh likes playing sports, binging Netflix, working out, and hanging out with friends.",
-        "img": "headshots/Saketh Gabbita.png",
-        "role": "Workshops Co-Lead"
+        "name": "Zach Ankner",
+        "bio": "Just a set of sufficiently deep representations faking extrapolation by interpolating. I'm hoping to study Mathematics and Computer Science. I'm pretty much interested in all of AI, but I'm most interested in Adversarial Robustness, Self-Supervised Learning, and Reasoning as of now.",
+        "img": "headshots/Zachary Ankner.png",
+        "role": "Co-President"
     },
     {
-        "name": "Kevin Meng",
-        "bio": "Kevin is a sophomore studying EECS who co-leads AIM Workshops. His current interests focus on deciphering the fact-storing and decision-making mechanisms in neural nets, but he's also worked on problems in NLP, bioinformatics, computational journalism, and computer vision. In his free time, he enjoys listening to music, playing basketball, and running.",
-        "img": "headshots/Kevin Meng.png",
-        "role": "Workshops Co-Lead"
+        "name": "David Koplow",
+        "bio": "WIP",
+        "img": "headshots/No Headshot.png",
+        "role": "Labs Co-Lead"
     },
     {
-        "name": "Kathleen Esfahany",
-        "bio": "Kathleen is a junior studying computer science and brain and cognitive sciences. She serves as co-president of AIM Labs, where she previously worked on projects using pose estimation and sentiment analysis models. Kathleen has additional interests in computational neuroscience and AI policy. In her free time, Kathleen enjoys doing crossfit, exploring Boston, and reading about history.",
-        "img": "headshots/Kathleen Esfahany.png",
+        "name": "Sejal Gupta",
+        "bio": "WIP",
+        "img": "headshots/No Headshot.png",
         "role": "Labs Co-Lead"
     },
     {
@@ -36,46 +36,40 @@
         "role": "Labs Co-Lead"
     },
     {
-        "name": "Zach Ankner",
-        "bio": "Just a set of sufficiently deep representations faking extrapolation by interpolating. I'm hoping to study Mathematics and Computer Science. I'm pretty much interested in all of AI, but I'm most interested in Adversarial Robustness, Self-Supervised Learning, and Reasoning as of now.",
-        "img": "headshots/Zachary Ankner.png",
-        "role": "Reading Group Co-Lead"
-    },
-    {
         "name": "Shayda \"Shaydawg\" Moezzi",
         "bio": "Shayda is a sophomore majoring in course 6-3 with a potential concentration in the history of art, architecture, and design. She is currently pursuing a UROP with the Decentralized Information Group at CSAIL. Outside of the lab, shayda enjoys working as a barista or being on the other end in search of the best iced dirty chai.",
         "img": "headshots/Shayda Moezzi.png",
         "role": "Reading Group Co-Lead"
     },
     {
-        "name": "Adriano Hernandez",
-        "bio": "Adriano is a rising senior embarking on a SuperUROP on unsupervised learning methods in physics using Contrastive Learning. He wants to learn what the building blocks of intelligence are. In his free time he likes to swim, learn about space travel, and dabble in various dabblings.",
-        "img": "headshots/Adriano Hernandez.png",
-        "role": "Webmaster"
+        "name": "Kevin Meng",
+        "bio": "Kevin is a junior studying EECS who co-leads AIM Workshops. His current interests focus on deciphering the fact-storing and decision-making mechanisms in neural nets, but he's also worked on problems in NLP, bioinformatics, computational journalism, and computer vision. In his free time, he enjoys listening to music, playing basketball, and running.",
+        "img": "headshots/Kevin Meng.png",
+        "role": "Workshops Co-Lead"
     },
     {
-        "name": "Helen Lu",
-        "bio": "Helen is a junior double majoring in CS and Math, and serves as the current Finance Director of AIM. She is interested in applied math and the intersections of AI with other fields. In her free time, she enjoys dancing and playing chess.",
-        "img": "headshots/Helen Lu.png",
-        "role": "Finance Director"
-    },
-    {
-        "name": "Jimin Lee",
-        "bio": "Jimin is a sophomore majoring in Electrical Engineering and Computer Science. Her current interests are neural networks for NLP research and computer vision. Jimin enjoys playing sports and traveling in her free time.",
-        "img": "headshots/Jimin Lee.png",
+        "name": "Anika Puri",
+        "bio": "WIP",
+        "img": "headshots/No Headshot.png",
         "role": "Marketing Director"
     },
     {
-        "name": "Anjali Sinha",
-        "bio": "Anjali is a junior at MIT studying electrical engineering and computer science, and she's the current Generator Lead. Anjali is interested in healthcare applications of machine learning and robotics. Outside of academics, Anjali loves dancing and is part of MIT Mirchi, MIT Bhangra, Mocha Moves, and MissBehavior dance teams.",
-        "img": "headshots/Anjali Sinha.png",
-        "role": "Generator Lead"
+        "name": "Will (Guilhermo) Costa",
+        "bio": "Will is a sophomore from Brazil majoring in course 18C. He is currently pursuing an UROP investigating grokking in neural networks.",
+        "img": "headshots/Will (Guilhermo) Costa.png",
+        "role": "Webmaster"
     },
     {
-        "name": "Raj \"Rajivo\" Movva",
-        "bio": "I'm Raj, a rising senior majoring in CS and minoring in Women's and Gender Studies (and former AIM president!). I enjoy applying deep learning to other fields, like biology and healthcare. I also study potential harms of AI in society, to prevent ML-based systems from exacerbating structural inequities. I'm an avid home cook, powerlifter, and writer.",
-        "img": "headshots/Rajiv Movva.png",
-        "role": "Social Chair"
+        "name": "Jose Ricardo Ramos",
+        "bio": "WIP",
+        "img": "headshots/No Headshot.png",
+        "role": ""
+    },
+    {
+        "name": "Evan \"Vogel\" Vogelbaum",
+        "bio": "Hey everyone, I'm Evan, a course 18 particularly interested in the intersection of machine learning and finance as well as machine learning theory. Outside of academics I enjoy Crossfit, reading, and hanging out with my fraternity brothers.",
+        "img": "headshots/Evan Vogelbaum.png",
+        "role": "Advisor"
     }
 ]
 
