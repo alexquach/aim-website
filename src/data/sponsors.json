@@ -4,11 +4,7 @@
         "img_link": "sponsors/questforintelligence.png"
     },
     {
-        "name": "Covariant",
-        "img_link": "sponsors/covariant.png"
-    },
-    {
-        "name": "Nvidia",
-        "img_link": "sponsors/nvidia.svg"
+        "name": "Weights and Biases",
+        "img_link": "sponsors/weightsandbiases.png"
     }
 ]

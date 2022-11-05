@@ -4,6 +4,14 @@
         "img_link": "sponsors/cerebras.svg"
     },
     {
+        "name": "Covariant",
+        "img_link": "sponsors/covariant.png"
+    },
+    {
+        "name": "NVIDIA",
+        "img_link": "sponsors/nvidia.svg"
+    },
+    {
         "name": "Quantco",
         "img_link": "sponsors/quantco.png"
     }

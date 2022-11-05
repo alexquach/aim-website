@@ -6,34 +6,34 @@
         "role": "Co-President"
     },
     {
-        "name": "Nithya Attaluri",
-        "bio": "I'm Nithya, a junior at MIT and co-president of AI@MIT. I'm interested in hardware-software co-design for deep learning and real-world applications of artificial intelligence, especially in the medical field. In my free time, I love exploring cities, discovering new music, and hanging out with friends.",
-        "img": "headshots/Nithya Attaluri.png",
-        "role": "Co-President"
-    },
-    {
         "name": "Zach Ankner",
         "bio": "Just a set of sufficiently deep representations faking extrapolation by interpolating. I'm hoping to study Mathematics and Computer Science. I'm pretty much interested in all of AI, but I'm most interested in Adversarial Robustness, Self-Supervised Learning, and Reasoning as of now.",
         "img": "headshots/Zachary Ankner.png",
         "role": "Co-President"
     },
     {
+        "name": "Nithya Attaluri",
+        "bio": "I'm Nithya, a junior at MIT and co-president of AI@MIT. I'm interested in hardware-software co-design for deep learning and real-world applications of artificial intelligence, especially in the medical field. In my free time, I love exploring cities, discovering new music, and hanging out with friends.",
+        "img": "headshots/Nithya Attaluri.png",
+        "role": "Treasurer"
+    },
+    {
         "name": "David Koplow",
-        "bio": "WIP",
-        "img": "headshots/No Headshot.png",
+        "bio": "",
+        "img": "headshots/David Koplow.jpg",
         "role": "Labs Co-Lead"
     },
     {
         "name": "Sejal Gupta",
-        "bio": "WIP",
-        "img": "headshots/No Headshot.png",
+        "bio": "",
+        "img": "headshots/Sejal Gupta.jpg",
         "role": "Labs Co-Lead"
     },
     {
-        "name": "Erick Gbordzoe",
-        "bio": "I'm Erick a 6-3 in the class of 2023 and I'm the Labs initiative co-leader with Kathleen. My machine learning interests are in NLP and working on applied ML projects. In my free time I enjoy lifting, baking, and waiting for Kanye to release Donda (hopefully I'm not still waiting by the time you read this).",
-        "img": "headshots/Erick Gbordzoe.png",
-        "role": "Labs Co-Lead"
+        "name": "Jose Ricardo Ramos",
+        "bio": "I’m Ricardo, a 2nd year studying AI and Decision Making. I am very passionate about using AI/technology to have an impact through entrepreneurship. I am also a huge soccer fan and love playing it.",
+        "img": "headshots/Jose Ricardo Ramos.jpg",
+        "role": "Reading Group Co-Lead"
     },
     {
         "name": "Shayda \"Shaydawg\" Moezzi",
@@ -49,27 +49,21 @@
     },
     {
         "name": "Anika Puri",
-        "bio": "WIP",
-        "img": "headshots/No Headshot.png",
+        "bio": "Anika Puri is a freshman at MIT currently hoping to major in Electrical Engineering and Computer Science. Exploring technology & engineering for social good, Anika is especially passionate about innovation focusing on environmental science and biomedical engineering. Anika is also a part of the MIT Bhangra Dance team and is excited to learn more about Artificial Intelligence as a part of AIM.",
+        "img": "headshots/Anika Puri.jpg",
         "role": "Marketing Director"
+    },
+    {
+        "name": "Erick Gbordzoe",
+        "bio": "I'm Erick a 6-3 in the class of 2023 and I'm the Labs initiative co-leader with Kathleen. My machine learning interests are in NLP and working on applied ML projects. In my free time I enjoy lifting, baking, and waiting for Kanye to release Donda (hopefully I'm not still waiting by the time you read this).",
+        "img": "headshots/Erick Gbordzoe.png",
+        "role": "Social Director"
     },
     {
         "name": "Will (Guilhermo) Costa",
         "bio": "Will is a sophomore from Brazil majoring in course 18C. He is currently pursuing an UROP investigating grokking in neural networks.",
         "img": "headshots/Will (Guilhermo) Costa.png",
         "role": "Webmaster"
-    },
-    {
-        "name": "Jose Ricardo Ramos",
-        "bio": "WIP",
-        "img": "headshots/No Headshot.png",
-        "role": ""
-    },
-    {
-        "name": "Evan \"Vogel\" Vogelbaum",
-        "bio": "Hey everyone, I'm Evan, a course 18 particularly interested in the intersection of machine learning and finance as well as machine learning theory. Outside of academics I enjoy Crossfit, reading, and hanging out with my fraternity brothers.",
-        "img": "headshots/Evan Vogelbaum.png",
-        "role": "Advisor"
     }
 ]
 
